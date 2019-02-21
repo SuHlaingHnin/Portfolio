@@ -1,0 +1,97 @@
+#about {
+	color: black;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#about #underline {
+	 width: 100px; 
+	 height: 2px; 
+	 background-color: black; 
+	 margin: auto;
+}
+
+/*language progress*/
+.progress_container {
+	display: flex;
+	vertical-align: center;
+	align-items: center;
+}
+
+.progress {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 30px;
+	width: 100%;
+	border-radius: 0;
+	position: relative;
+}
+
+.progress-bar {
+	background-color: var(--bg-cyan-bold);
+}
+
+.language {
+	width: 150px;
+	height: 30px;
+	background-color: var(--bg-cyan);
+	color: white;
+}
+
+.language > label {
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+.percentage > label {
+	text-align: right;
+	line-height: 30px;
+	vertical-align: middle;
+	position: absolute;
+	right: 0;
+	padding-right: 5px;
+}
+/*End*/
+
+/*Profile*/
+.col-md-6 {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.col-md-3 {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/*Hexagon*/
+#about .hexagon-label {
+	display: block;
+	padding-top: 20px;
+}
+
+#hexagon_container div 	{
+ 	display: flex; 
+ 	align-items: center; 
+ 	justify-content: center;
+ }
+
+ .hexagon-md {
+ 	background-color: var(--bg-cyan);
+ }
+
+ .hexagon-md:hover {
+ 	opacity: 0.8;	
+ }
+ 
+ .hexagon-md::before, .hexagon-md::after {
+	border-top-color: var(--bg-cyan);  	
+	border-bottom-color: var(--bg-cyan);
+ }
+
+ /*Skill Section*/
+ #skill_section {
+ 	padding-top: 50px;
+ 	padding-bottom: 50px;
+ }

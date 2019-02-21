@@ -1,0 +1,62 @@
+#portfolio {
+	background-color: var(--bg-light);
+}
+
+#portfolio .container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#contents img{
+	width: 100%;
+}
+
+#contents .row {
+	margin-bottom: 30px;
+}
+
+#javascript_content {
+	display: none;
+}
+
+#php_content {
+	display: none;
+}
+
+#webdesign_content {
+	display: none;
+}
+
+/*Navs*/
+#navbar {
+	height: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.active_nav {
+	background-color: var(--pink);
+	color: white;
+}
+
+.default_nav {
+	color: black;
+	background-color: white;
+}
+
+#nav_all > label {
+	width: 100px;	
+}
+
+#nav_javascript > label {
+	width: 200px;
+}
+
+#nav_php > label {
+	width: 80px;
+}
+
+#nav_webdesign > label {
+	width: 150px;
+}
+/*End*/

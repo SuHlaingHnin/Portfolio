@@ -1,0 +1,25 @@
+:root {
+  --bg-cyan: #03C2C9;
+  --bg-cyan-bold: #00a1a7;
+  --pink: #E3196D;
+  --bg-light: #F5F5F5;
+}
+
+.txt_cyan {
+	color: var(--bg-cyan);
+}
+
+.subtitle {	
+	font-family: 'Raleway-bold';
+	font-size: 18pt;
+}
+
+.sublabel {
+	color: #616161;
+}
+
+.title {
+	padding-top: 50px;
+	padding-bottom: 100px;
+	font-family: 'Raleway-bold';
+}
